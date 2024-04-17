@@ -5,8 +5,8 @@
 #define OK input(PIN_B2)
 #define BACK input(PIN_B3)
 #define BTN_DEN input(PIN_B6)
-#define BTN_QUAT input(PIN_B7)
-#define BTN_QUAT2 input(PIN_C0)
+// #define BTN_QUAT input(PIN_B7)
+// #define BTN_QUAT2 input(PIN_C0)
 #define BTN_QUAT3
 //!
 //!#define SPBRG (int8*)0x99
