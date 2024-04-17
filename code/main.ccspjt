@@ -1,0 +1,63 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.015
+Compiler=PCM
+CCSVersion=5.101
+[Target Data]
+FileList=main.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[D:\code PIC\LCD\main]
+Type=4
+[mru-list]
+1=main.c
+[Opened Files]
+1=main.c
+2=main.h
+3=lcd.h
+4=C:\Program Files (x86)\PICC\Drivers\math.h
+5=16F877A.h
+6=..\BAI 25 - DO NHIET DO SU DUNG CAM BIEN LM35\main.cof.txt
+7=C:\Program Files (x86)\PICC\Devices\16F877A.h
+8=
+9=
+10=
+t1=1
+Count=1
+[main.c]
+Type=4
+
+[fileformats]
+forcecoff=0
+
+[ProjectLog]
+Days=3
+D1=09-06-2023
+D1_L=10
+D1_L1=[14946]Project Opened.
+D1_L2=[16291]Project Closed.
+D1_L3=[28420]Project Opened.
+D1_L4=[29507]Started Editing.
+D1_L5=[29807]Stopped Editing.
+D1_L6=[29896]Started Editing.
+D1_L7=[29903]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L8=[29903]Project Closed.
+D1_L9=[34418]Project Opened.
+D1_L10=[39701]Project Closed.
+D2=14-06-2023
+D2_L=1
+D2_L1=[60402]Project Opened.
+D3=15-06-2023
+D3_L=1
+D3_L1=[8710]Project Closed.
+[Units]
+Count=1
+1=main (main)
+
+[defines]
+buildcount=1

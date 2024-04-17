@@ -1,0 +1,4 @@
+*** Error 76 "main.c" Line 22(4,10): Expect ;
+*** Error 43 "main.c" Line 64(1,2): Expecting a declaration
+      2 Errors,  0 Warnings.
+Build Failed.

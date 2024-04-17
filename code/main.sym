@@ -1,0 +1,309 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     @INTERRUPT_AREA
+029     @INTERRUPT_AREA
+02A     @INTERRUPT_AREA
+02B     select
+02C     time
+02D     time1
+02E     time_light
+02F     flag_dasetup
+030     flag
+031     flag_manual
+032-035 Tam
+036-039 GiatriADC
+03A-03D Nhietdo
+03E-03F @sprintf_string
+040     dem1
+041     bien_light
+042     a
+043     @TRIS_C
+044-047 atan2.y
+044-045 MAIN.Nguongnhietdo
+046     mode_manual.select
+046     caidat_fan.select
+046     bat_tat_quat.top
+046     @PRINTF_D_860.P1
+046     @PSTRINGCN7_860.P2
+046-049 @PRINTF_L32D_860FPFPF.P3
+046     lcd_init.i
+046     caidat_light.select
+046     hienthi.select
+046     hienthi_mode.select
+046     luachon_caidat.select
+046     display_onoff.@SCRATCH1
+046     MAIN.@SCRATCH1
+047     @PRINTF_D_860.P1
+047     bat_tat_quat.bot
+047     lcd_init.@SCRATCH1
+047     @PSTRINGC7_860.@SCRATCH1
+047     MAIN.@SCRATCH2
+047     @PSTRINGCN7_860.@SCRATCH1
+048-04B atan2.x
+048-04B @FLT.P1
+048-049 @ITOF.P2
+048     @PSTRINGC7_860.@SCRATCH2
+048     MAIN.@SCRATCH3
+048     @PSTRINGCN7_860.@SCRATCH2
+048     @PRINTF_D_860.@SCRATCH1
+049     @PSTRINGC7_860.@SCRATCH3
+049     MAIN.@SCRATCH4
+049     @PSTRINGCN7_860.@SCRATCH3
+049     @PRINTF_D_860.@SCRATCH2
+04A     @PRINTF_L32D_860FPFPF.P1
+04A-04D @DIVFF.P2
+04A     @PSTRINGC7_860.@SCRATCH4
+04A     @PSTRINGCN7_860.@SCRATCH4
+04A     @PRINTF_D_860.@SCRATCH3
+04B     @PRINTF_L32D_860FPFPF.@SCRATCH1
+04B     @PRINTF_D_860.@SCRATCH4
+04C-04F atan2.z
+04C     @DIV88.P1
+04C-04F @FLT.P2
+04C     @PRINTF_L32D_860FPFPF.@SCRATCH2
+04D     @DIV88.P1
+04D     @PRINTF_L32D_860FPFPF.@SCRATCH3
+04E-051 @DIVFF.P1
+04E     @PRINTF_L32D_860FPFPF.@SCRATCH4
+04E     @DIV88.@SCRATCH1
+04F     @PRINTF_L32D_860FPFPF.@SCRATCH5
+050.0   atan2.sign
+050     @FLT.@SCRATCH1
+050     @PRINTF_L32D_860FPFPF.@SCRATCH6
+051     atan2.quad
+051     @FLT.@SCRATCH2
+051     @PRINTF_L32D_860FPFPF.@SCRATCH7
+052     @DIVFF.@SCRATCH1
+052     @PRINTF_L32D_860FPFPF.@SCRATCH8
+053-056 @FTOSD.P1
+053     lcd_putc.c
+053-056 @MULFF.P1
+053-056 @DIV3232.P2
+053     @DIVFF.@SCRATCH2
+054     lcd_gotoxy.x
+054     @delay_ms2.P1
+054     @DIVFF.@SCRATCH3
+055     lcd_gotoxy.y
+055     @DIVFF.@SCRATCH4
+056     lcd_gotoxy.address
+056     @DIVFF.@SCRATCH5
+057-05A @DIV3232.P1
+057-05A @MULFF.P2
+057     @DIVFF.@SCRATCH6
+057     lcd_gotoxy.@SCRATCH1
+057     @FTOSD.@SCRATCH1
+058     lcd_send_byte.address
+059     lcd_send_byte.n
+05A     lcd_read_byte.low
+05A     lcd_send_byte.@SCRATCH1
+05B     lcd_send_nibble.n
+05B     lcd_read_byte.high
+05B     @MULFF.@SCRATCH1
+05B     @DIV3232.@SCRATCH1
+05C     lcd_read_nibble.n
+05C     @MULFF.@SCRATCH2
+05C     lcd_read_byte.@SCRATCH1
+05C     @DIV3232.@SCRATCH2
+05D     @MULFF.@SCRATCH3
+05D     lcd_read_nibble.@SCRATCH1
+05D     @DIV3232.@SCRATCH3
+05E     @MULFF.@SCRATCH4
+05E     @DIV3232.@SCRATCH4
+05F     @MULFF.@SCRATCH5
+05F     @DIV3232.@SCRATCH5
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07F     @INTERRUPT_AREA
+09C.6   C1OUT
+09C.7   C2OUT
+0FF     @INTERRUPT_AREA
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+17F     @INTERRUPT_AREA
+1FF     @INTERRUPT_AREA
+27F     @INTERRUPT_AREA
+2FF     @INTERRUPT_AREA
+37F     @INTERRUPT_AREA
+3FF     @INTERRUPT_AREA
+47F     @INTERRUPT_AREA
+4FF     @INTERRUPT_AREA
+57F     @INTERRUPT_AREA
+5FF     @INTERRUPT_AREA
+67F     @INTERRUPT_AREA
+6FF     @INTERRUPT_AREA
+77F     @INTERRUPT_AREA
+7FF     @INTERRUPT_AREA
+87F     @INTERRUPT_AREA
+8FF     @INTERRUPT_AREA
+97F     @INTERRUPT_AREA
+9FF     @INTERRUPT_AREA
+A7F     @INTERRUPT_AREA
+AFF     @INTERRUPT_AREA
+B7F     @INTERRUPT_AREA
+BFF     @INTERRUPT_AREA
+C7F     @INTERRUPT_AREA
+CFF     @INTERRUPT_AREA
+D7F     @INTERRUPT_AREA
+DFF     @INTERRUPT_AREA
+E7F     @INTERRUPT_AREA
+EFF     @INTERRUPT_AREA
+F7F     @INTERRUPT_AREA
+FFF     @INTERRUPT_AREA
+107F     @INTERRUPT_AREA
+10FF     @INTERRUPT_AREA
+117F     @INTERRUPT_AREA
+11FF     @INTERRUPT_AREA
+127F     @INTERRUPT_AREA
+12FF     @INTERRUPT_AREA
+137F     @INTERRUPT_AREA
+13FF     @INTERRUPT_AREA
+147F     @INTERRUPT_AREA
+14FF     @INTERRUPT_AREA
+157F     @INTERRUPT_AREA
+15FF     @INTERRUPT_AREA
+167F     @INTERRUPT_AREA
+16FF     @INTERRUPT_AREA
+177F     @INTERRUPT_AREA
+17FF     @INTERRUPT_AREA
+187F     @INTERRUPT_AREA
+18FF     @INTERRUPT_AREA
+197F     @INTERRUPT_AREA
+19FF     @INTERRUPT_AREA
+1A7F     @INTERRUPT_AREA
+1AFF     @INTERRUPT_AREA
+1B7F     @INTERRUPT_AREA
+1BFF     @INTERRUPT_AREA
+1C7F     @INTERRUPT_AREA
+1CFF     @INTERRUPT_AREA
+1D7F     @INTERRUPT_AREA
+1DFF     @INTERRUPT_AREA
+1E7F     @INTERRUPT_AREA
+1EFF     @INTERRUPT_AREA
+1F7F     @INTERRUPT_AREA
+1FFF     @INTERRUPT_AREA
+
+ROM Allocation:
+00004F  LCD_INIT_STRING.call
+000053  LCD_INIT_STRING.data
+000057  @const883.call
+000062  @const888.call
+00006D  @const892.call
+000078  @const893.call
+000083  @const899.call
+00008C  @const900.call
+000095  @const903.call
+00009D  @const904.call
+0000A5  @const908.call
+0000AD  @const909.call
+0000B5  @const913.call
+0000BA  @const914.call
+0000BF  @const918.call
+0000C6  @const919.call
+0000CA  TIMER0_isr
+0000CE  batden
+0000F2  @const932.call
+0000F6  @const933.call
+0000FA  @const934.call
+0000FE  @const935.call
+000102  @const936.call
+000105  @const937.call
+000108  @const945.call
+00010F  @const946.call
+000116  @const949.call
+00011C  @const960.call
+00011D  @const961.call
+000125  @const962.call
+00012D  @const963.call
+000135  @const964.call
+00013D  @const973.call
+00013E  @const976.call
+00013F  @const977.call
+000140  @const980.call
+000141  @delay_ms2
+000156  lcd_send_nibble
+000181  lcd_read_nibble
+0001B2  lcd_send_byte
+0001B5  lcd_read_byte
+000209  lcd_init
+000243  lcd_gotoxy
+000266  lcd_putc
+00028A  @PSTRINGC7_860
+0002E0  @ITOF
+0002FD  @MULFF
+000372  @DIVFF
+00043C  hienthi
+00045C  xoamanhinh
+000474  display_onoff
+0004C6  @PSTRINGCN7_860
+00051F  @DIV3232
+00056E  @PRINTF_L32D_860FPFPF
+000595  @FTOSD
+000650  hienthi_mode
+000670  mode_manual
+000690  luachon_caidat
+0006AF  @FLT
+0006EE  bat_tat_quat
+00076B  caidat_fan
+00078B  @DIV88
+0007A0  @PRINTF_D_860
+0007F7  timerbatquat_batden
+000800  caidat_light
+001000  MAIN
+001000  @cinit1
+001018  @cinit2
+
+Project Directory:
+    C:\Users\quang\Desktop\DOAN1\code\
+
+Project Files:
+    main.c                                                  [05-May-22 20:25  CRC=5E315B4E]
+    main.h                                                  [22-Apr-22 08:26  CRC=2EB8624F]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\16F877A.h [21-Jan-21 11:32  CRC=DB498A92]
+    lcd.h                                                   [08-Apr-22 11:32  CRC=D7C9654E]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\math.h  [05-May-20 12:57  CRC=02232397]
+
+Source signature=4442F4AB
+Program memory checksum=0000
+Hex file CRC=5CF4
+
+Units:
+    C:\Users\quang\Desktop\DOAN1\code\main (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA
